@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+        "item": "minecraft:sweet_berries"
+        }, {
+        "item": "minecraft:glass_bottle"
+        }, {
+        "item": "bobamod:tapioca_pearls"
+        }
+    ],
+    "result": {
+        "item": "bobamod:berry_boba"
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_ingredients": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:tapioca_pearls",
+                "minecraft:cactus",
+                "minecraft:glass_bottle"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_ingredients"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "bobamod:cactus_boba"
+      ]
+    }
+  }

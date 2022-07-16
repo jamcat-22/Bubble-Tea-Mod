@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+        "item": "bobamod:cassava"
+        }
+    ],
+    "result": {
+        "item": "bobamod:tapioca_flour",
+        "count": 2
+    }
+}

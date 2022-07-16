@@ -1,0 +1,125 @@
+{
+    "display": {
+      "icon": {
+        "item": "bobamod:apple_boba"
+      },
+      "title": "Boba Lover",
+      "description": "Drink a variety of flavors and balls",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bobamod:get_balls",
+    "criteria": {
+      "apple_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:apple_boba"
+            ]
+          }
+        }
+      },
+      "apple_milk_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:apple_milk_boba"
+            ]
+          }
+        }
+      },
+      "berry_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:berry_boba"
+            ]
+          }
+        }
+      },
+      "berry_milk_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:berry_milk_boba"
+            ]
+          }
+        }
+      },
+      "watermelon_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:watermelon_boba"
+            ]
+          }
+        }
+      },
+      "watermelon_milk_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:watermelon_milk_boba"
+            ]
+          }
+        }
+      },
+      "cactus_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:cactus_boba"
+            ]
+          }
+        }
+      },
+      "chocomilk_boba": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "bobamod:chocomilk_boba"
+            ]
+          }
+        }
+      }
+    },
+    "requirements": [
+      [
+        "apple_boba"
+      ],
+      [
+        "apple_milk_boba"
+      ],
+      [
+        "berry_boba"
+      ],
+      [
+        "berry_milk_boba"
+      ],
+      [
+        "watermelon_boba"
+      ],
+      [
+        "watermelon_milk_boba"
+      ],
+      [
+        "cactus_boba"
+      ],
+      [
+        "chocomilk_boba"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    }
+  }

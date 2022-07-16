@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+        "item": "minecraft:apple"
+        }, {
+        "item": "minecraft:glass_bottle"
+        }, {
+        "item": "minecraft:milk_bucket"
+        }, {
+        "item": "bobamod:tapioca_pearls"
+        }
+    ],
+    "result": {
+        "item": "bobamod:apple_milk_boba"
+    }
+}

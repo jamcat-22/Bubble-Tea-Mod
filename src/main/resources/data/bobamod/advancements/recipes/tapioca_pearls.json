@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_ingredients": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:raw_tapioca_pearls"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_ingredients"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "bobamod:tapioca_pearls_furnace",
+        "bobamod:tapioca_pearls_smoker"
+      ]
+    }
+  }

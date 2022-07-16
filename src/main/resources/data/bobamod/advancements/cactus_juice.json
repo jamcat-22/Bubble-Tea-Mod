@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "bobamod:cactus_boba"
+      },
+      "title": "It's the quenchiest",
+      "description": "Get yourself some cactus juice",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "bobamod:get_balls",
+    "criteria": {
+      "cactus_boba": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:cactus_boba"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "cactus_boba"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    }
+  }

@@ -1,0 +1,36 @@
+{
+    "display": {
+      "icon": {
+        "item": "bobamod:tapioca_pearls"
+      },
+      "title": "Chewy Balls",
+      "description": "Collect some balls",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "minecraft:husbandry/root",
+    "criteria": {
+      "tapioca_pearls": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:tapioca_pearls"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "tapioca_pearls"
+      ]
+    ],
+    "rewards": {
+      "experience": 100
+    }
+  }

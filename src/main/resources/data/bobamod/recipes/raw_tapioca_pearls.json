@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [{
+        "item": "minecraft:sugar"
+        }, {
+        "item": "bobamod:tapioca_flour"
+        }
+    ],
+    "result": {
+        "item": "bobamod:raw_tapioca_pearls"
+    }
+}

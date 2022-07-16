@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "bobamod:raw_tapioca_pearls"
+    },
+    "result": "bobamod:tapioca_pearls",
+    "cookingtime": 200,
+    "experience": 0.3
+}

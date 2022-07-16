@@ -1,0 +1,17 @@
+{
+    "item.bobamod.apple_boba": "Apple Bubble Tea",
+    "item.bobamod.apple_milk_boba": "Apple Milk Bubble Tea",
+    "item.bobamod.berry_boba": "Berry Bubble Tea",
+    "item.bobamod.berry_milk_boba": "Berry Milk Bubble Tea",
+    "item.bobamod.watermelon_boba": "Watermelon Bubble Tea",
+    "item.bobamod.watermelon_milk_boba": "Watermelon Milk Bubble Tea",
+    "item.bobamod.cactus_boba": "Cactus Bubble Tea",
+    "item.bobamod.chocomilk_boba": "Chocolate Milk Bubble Tea",
+    "item.bobamod.tapioca_pearls": "Tapioca Pearls",
+    "item.bobamod.raw_tapioca_pearls": "Uncooked Tapioca Pearls",
+    "item.bobamod.tapioca_flour": "Tapioca Flour",
+    "item.bobamod.cassava": "Cassava",
+    
+    "block.bobamod.cassava_crop": "Cassava Crop",
+    "block.bobamod.wild_cassava_crop": "Cassava Crop"
+}

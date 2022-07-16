@@ -1,0 +1,30 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_ingredients": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:tapioca_pearls",
+                "minecraft:sweet_berries",
+                "minecraft:glass_bottle",
+                "minecraft:milk_bucket"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_ingredients"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "bobamod:berry_milk_boba"
+      ]
+    }
+  }

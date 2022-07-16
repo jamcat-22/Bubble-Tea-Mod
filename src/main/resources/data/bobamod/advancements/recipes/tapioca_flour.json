@@ -1,0 +1,27 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+      "has_ingredients": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "bobamod:cassava"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "has_ingredients"
+      ]
+    ],
+    "rewards": {
+      "recipes": [
+        "bobamod:tapioca_flour"
+      ]
+    }
+  }

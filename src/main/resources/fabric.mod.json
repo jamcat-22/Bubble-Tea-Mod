@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "bobamod",
+  "version": "${version}",
+
+  "name": "Bubble Tea Mod",
+  "description": "Make a variety of bubble teas from cassava to the drink!",
+  "authors": [
+    "jamcat-22"
+  ],
+  "contact": {
+    "homepage": "https://github.com/jamcat-22",
+    "sources": "https://github.com/jamcat-22/Bubble-Tea-Mod"
+  },
+
+  "license": "lgpl-2.1",
+  "icon": "assets/bobamod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.jamcat22.bobamod.BobaMod"
+    ],
+    "client": [
+      "com.github.jamcat22.bobamod.BobaModClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

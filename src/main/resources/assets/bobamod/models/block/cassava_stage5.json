@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "cross": "bobamod:block/cassava_stage5"
+    }
+}
